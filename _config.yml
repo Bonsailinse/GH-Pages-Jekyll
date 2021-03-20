@@ -22,7 +22,7 @@ author:
 url: "https://bonsailinse.net" #
 baseurl:
 permalink: /:title/
-google_analytics: UA-12787052-2 # leave it blank if not wish
+google_analytics: "UA-12787052-2" # leave it blank if not wish
 fb_appid:
 
 # Collection setting
