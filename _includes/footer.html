@@ -7,13 +7,12 @@
   </small>
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
-
-
-  <script src="/assets/js/galite.js"></script>
-  <script>
-    var galite = galite || {};
-    galite.UA = "{{ site.google_analytics }}";
-  </script>
+<script src="/assets/js/identity.js" defer="defer"></script>
+<script src="/assets/js/galite.js" defer="defer"></script>
+<script>
+  var galite = galite || {};
+  galite.UA = "{{ site.google_analytics }}";
+</script>
 
 {%- if page.url == '/archive/' -%}
   <script src="/assets/js/search.min.js"></script>
