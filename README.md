@@ -3,6 +3,8 @@
 Klisé is minimalist Jekyll theme for running a personal site and blog running on Jekyll.<br>
 For demo <a href="https://klise.now.sh" target="_blank" rel="noopener">klise.now.sh</a>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3fd0c5a-56b9-4561-a933-6adc84dd812c/deploy-status)](https://app.netlify.com/sites/bonsailinse/deploys)
+
 ## Features
 
 - [x] Light & Dark Mode support :waxing_crescent_moon:
@@ -48,14 +50,6 @@ Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
 
 - Since [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) plugin isn't supported by github pages, this cause will make your site problems, path broken or post images won't show up, you can host alternatively using likes [netlify.com](https://netlify.com), [vercel.com](https://vercel.com) or [surge.sh](https://surge.sh) services, which support 3rd party.
 
-## Contributing
-
-If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
-
-Yeaaa feel free to open a pull request.
-## Support
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W7MJ4X) [![saweria.co](./assets/img/saweria-button.png)](https://saweria.co/piharpi)
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
