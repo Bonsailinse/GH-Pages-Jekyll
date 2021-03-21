@@ -17,9 +17,7 @@
 
   galite('create', '{{ site.google_analytics }}', 'auto');
   galite('send', 'pageview');
-</script>
 
-<script>
   window.addEventListener('unload', function() {
     galite('send', 'timing', 'JS Dependencies', 'unload')
   })

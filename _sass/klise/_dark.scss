@@ -2,6 +2,10 @@ body[data-theme="dark"] {
   color: $dark-text-base-color;
   background-color: $dark-black;
 
+  .header-link {
+    color: $dark-white !important;
+  }
+
   // Heading
   h1,
   h2,
@@ -234,7 +238,7 @@ body[data-theme="dark"] {
     .solution:hover {
       color: $dark-text-link-blue-active;
     }
-  }  
+  }
 
   .search-article {
     input[type="search"] {
