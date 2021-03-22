@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 
 collections:
@@ -20,18 +20,34 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string"}}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: 'pages'
-    label: 'Pages'
+  - name: "pages"
+    label: "Pages"
     editor:
       preview: false
     files:
-      - label: 'About'
-        name: 'about'
-        file: 'about.md'
+      - label: "About"
+        name: "about"
+        file: "about.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string', default: 'About' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
-          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/about/' }
-          - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
-          - { label: 'Comments', name: 'comments', widget: 'hidden', default: 'false' }
+          - { label: "Title", name: "title", widget: "string", default: "About" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - { label: "Excerpt", name: "excerpt", widget: "text" }
+          - { label: "Comments", name: "comments", widget: "hidden", default: "false" }
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/menus.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: External, name: external, widget: boolean, default: "false"}
