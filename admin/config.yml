@@ -20,3 +20,18 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string"}}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'About'
+        name: 'about'
+        file: 'about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'About' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/about/' }
+          - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
+          - { label: 'Comments', name: 'comments', widget: 'hidden', default: 'false' }
