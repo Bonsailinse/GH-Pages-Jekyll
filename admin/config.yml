@@ -5,36 +5,55 @@ backend:
 # publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_files
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, de]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    i18n: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "list", field: {label: "Category", name: "category_name", widget: "string"}}
-      - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string"}}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Publish Date", name: "date", widget: "datetime", i18n: duplicate}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", i18n: duplicate}
+      - {label: "Categories", name: "categories", widget: "list", i18n: true, field: {label: "Category", name: "category_name", widget: "string"}}
+      - {label: "Tags", name: "tags", widget: "list", i18n: true, field: {label: "Tag", name: "tag_name", widget: "string"}}
+      - {label: "Description", name: "description", widget: "text", i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", i18n: true}
   - name: "pages"
     label: "Pages"
+    i18n:
+      structure: single_file
+      locales: [en, de]
     editor:
       preview: false
     files:
       - label: "About"
         name: "about"
         file: "about.md"
+        i18n: true
         fields:
-          - { label: "Title", name: "title", widget: "string", default: "About" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
-          - { label: "Excerpt", name: "excerpt", widget: "text" }
-          - { label: "Comments", name: "comments", widget: "hidden", default: "false" }
+          - { label: "Title", name: "title", widget: "string", default: "About", i18n: true }
+          - { label: "Body", name: "body", widget: "markdown", i18n: true }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page", i18n: duplicate }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/", i18n: duplicate }
+          - { label: "Excerpt", name: "excerpt", widget: "text", i18n: true }
+          - { label: "Comments", name: "comments", widget: "hidden", default: "false", i18n: duplicate }
   - name: "config"
     label: "Config"
     editor:
@@ -43,11 +62,12 @@ collections:
       - label: "Navigation"
         name: "navigation"
         file: "_data/menus.yml"
+        i18n: true
         fields:
           - label: "Navigation Items"
             name: "items"
             widget: "list"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: External, name: external, widget: boolean, default: "false"}
+              - {label: Title, name: title, widget: string, i18n: true}
+              - {label: URL, name: url, widget: string, i18n: duplicate}
+              - {label: External, name: external, widget: boolean, default: false, i18n: duplicate}
