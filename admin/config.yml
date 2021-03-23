@@ -62,12 +62,11 @@ collections:
       - label: "Navigation"
         name: "navigation"
         file: "_data/menus.yml"
-        i18n: true
         fields:
           - label: "Navigation Items"
             name: "items"
             widget: "list"
             fields:
-              - {label: Title, name: title, widget: string, i18n: true}
-              - {label: URL, name: url, widget: string, i18n: duplicate}
-              - {label: External, name: external, widget: boolean, default: false, i18n: duplicate}
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: External, name: external, widget: boolean, default: false}
