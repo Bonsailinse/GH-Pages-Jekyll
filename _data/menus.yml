@@ -1,5 +1,5 @@
 items:
-  - title: home1
+  - title: home
     url: /
     external: false
   - title: archive
@@ -8,3 +8,6 @@ items:
   - title: about
     url: /about/
     external: false
+  - external: true
+    title: test
+    url: http://google.com
