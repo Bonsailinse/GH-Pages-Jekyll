@@ -26,6 +26,16 @@ i18n:
   # The locale to be used for fields validation and as a baseline for the entry.
   default_locale: en
 
+defaults:
+  - scope:
+      path: "_**/en/**"
+    values:
+      locale: en
+  - scope:
+      path: "_**/de/**"
+    values:
+      locale: de
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -41,6 +51,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "list", i18n: true, field: {label: "Category", name: "category_name", widget: "string"}}
       - {label: "Tags", name: "tags", widget: "list", i18n: true, field: {label: "Tag", name: "tag_name", widget: "string"}}
       - {label: "Description", name: "description", widget: "text", i18n: true}
+      - {label: "Locale", name: "locale", widget: "hidden", i18n: true, default: "{{locale}}"}
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
   - name: "pages"
     label: "Pages"
