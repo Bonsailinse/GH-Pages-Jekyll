@@ -22,8 +22,10 @@ en:
     Jogjakarta. This blog for documentation about my programming journey,
     running on jekyll, hosting on netlify and using my own simple theme.
   title: Colophon
+  permalink: /about/
 de:
   excerpt: About Me Excerpt
+  permalink: /about/
   title: Über mich
   body: Test About me
 
