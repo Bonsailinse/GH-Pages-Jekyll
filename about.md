@@ -1,7 +1,7 @@
 ---
 en:
   body: >-
-
+    
 
     He's a student from Banyuwang, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
 
@@ -27,14 +27,9 @@ de:
   excerpt: About Me Excerpt
   permalink: /about/
   title: Über mich
-  body: Test About me
+  body: |-
+    Test About me
 
-    Discord
-    Slack
-    Telegram
-    EVE Who
-    zKillboard
-    inGame Mail
-    Corporation info
 
+    Discord Slack Telegram EVE Who zKillboard inGame Mail Corporation info
 ---
