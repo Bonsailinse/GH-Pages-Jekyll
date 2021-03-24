@@ -45,34 +45,29 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
   - name: "pages"
     label: "Pages"
-    i18n:
-      structure: single_file
-      locales: [en, de]
     editor:
-      preview: false
+      preview: true
     files:
       - label: "About"
         name: "about"
         file: "about.md"
-        i18n: true
         fields:
-          - { label: "Title", name: "title", widget: "string", default: "About", i18n: true }
-          - { label: "Body", name: "body", widget: "markdown", i18n: true }
+          - { label: "Title", name: "title", widget: "string", default: "About"}
+          - { label: "Body", name: "body", widget: "markdown"}
           - { label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
-          - { label: "Excerpt", name: "excerpt", widget: "text", i18n: true }
+          - { label: "Excerpt", name: "excerpt", widget: "text"}
           - { label: "Comments", name: "comments", widget: "hidden", default: "false" }
       - label: "Contact"
         name: "contact"
         file: "contact.md"
-        i18n: true
         fields:
-          - { label: "Title", name: "title", widget: "string", default: "Contact", i18n: true }
-          - { label: "Body", name: "body", widget: "markdown", i18n: true }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page", i18n: duplicate }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contact/", i18n: duplicate }
-          - { label: "Excerpt", name: "excerpt", widget: "text", i18n: true }
-          - { label: "Comments", name: "comments", widget: "hidden", default: "false", i18n: duplicate }
+          - { label: "Title", name: "title", widget: "string", default: "Contact"}
+          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contact/"}
+          - { label: "Excerpt", name: "excerpt", widget: "text"}
+          - { label: "Comments", name: "comments", widget: "hidden", default: "false"}
   - name: "config"
     label: "Config"
     editor:
