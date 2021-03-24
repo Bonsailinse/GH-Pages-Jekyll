@@ -11,35 +11,29 @@ excerpt: .
     id="simple-contact-form"
     class="contact-form"
 >
-    <p class="hidden">
-        <label id="contact-form-bot-label">Bot-Protection; don't fill out: <input name="bot-field" aria-labelledby="contact-form-bot-label"
-        /></label>
-    </p>
-    <p class="form-row">
-        <label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
-        <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
-    </p>
-    <p class="form-row">
-        <label id="contact-form-email-label" for="contact-form-email" class="form-label">E-Mail</label>
-        <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
-    </p>
-    <p class="form-row">
-        <label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label>
-        <textarea
-            name="message"
-            id="contact-form-message"
-            aria-labelledby="contact-form-message-label"
-            class="form-textarea"
-            rows="7"
-        ></textarea>
-    </p>
-    <p class="form-row form-submit">
-        <button type="submit" class="button">Send Message</button>
-    </p>
+   <label class="hidden" id="contact-form-bot-label">Bot-Protection; don't fill out: <input name="bot-field" aria-labelledby="contact-form-bot-label"
+   /></label>
+
+   <label id="contact-form-name-label" for="name" class="label-name">Name</label>
+   <input type="text" name="name" id="name" aria-labelledby="contact-form-name-label" class="field field-name" />
+
+   <label id="contact-form-email-label" for="email" class="label-email">E-Mail</label>
+   <input type="email" name="email" id="email" aria-labelledby="contact-form-email-label" class="field field-email" />
+
+   <label id="contact-form-message-label" for="message" class="label-message">Message</label>
+   <textarea
+      name="message"
+      id="message"
+      aria-labelledby="contact-form-message-label"
+      class="field field-message"
+      rows="7"
+   ></textarea>
+   <input type="submit" value="Send Message" class="button" />
 </form>
 
+<hr>
 
-*Legal notice in German, because German law requires it and I don't really bother to translate the whole thing for countries who don't care.*
+<small>*Legal notice in German, because German law requires it and I don't really bother to translate the whole thing for countries that don't care:*</small>
 
 ### Impressum
 
