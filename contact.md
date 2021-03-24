@@ -28,7 +28,7 @@ de:
     **Bildrechte:**
 
 
-    Bildagentur und Name des jeweiligen Fotografen (z.B.: © Max Müller – Fotolia.de)
+    Bisher nicht nötig, bei zukünftiger Nutzung werden an dieser Stelle Bildagentur und Name des jeweiligen Fotografen genannt (z.B.: © Max Müller – Fotolia.de).
 
 
     ## 
