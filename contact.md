@@ -3,7 +3,7 @@ title: Contact / Legal Notice
 excerpt: .
 ---
 <form
-    name="ContactForm"
+    name="Contact Form"
     method="POST"
     action="/thanks"
     data-netlify="true"
