@@ -86,17 +86,16 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 1. Wenn Sie unsere Webseite lediglich informatorisch nutzen (also keine Registrierung und auch keine anderweitige Übermittlung von Informationen), erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten:
 
    * IP-Adresse;
-
-     Internet-Service-Provider des Nutzers;
-     Datum und Uhrzeit des Abrufs;
-     Browsertyp;
-     Sprache und Browser-Version;
-     Inhalt des Abrufs;
-     Zeitzone;
-     Zugriffsstatus/HTTP-Statuscode;
-     Datenmenge;
-     Websites, von denen die Anforderung kommt;
-     Betriebssystem.
+   * Internet-Service-Provider des Nutzers;
+   * Datum und Uhrzeit des Abrufs;
+   * Browsertyp;
+   * Sprache und Browser-Version;
+   * Inhalt des Abrufs;
+   * Zeitzone;
+   * Zugriffsstatus/HTTP-Statuscode;
+   * Datenmenge;
+   * Websites, von denen die Anforderung kommt;
+   * Betriebssystem.
 
      Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von Ihnen findet nicht statt.
 2. Diese Daten dienen dem Zweck der nutzerfreundlichen, funktionsfähigen und sicheren Auslieferung unserer Website an Sie mit Funktionen und Inhalten sowie deren Optimierung und statistischen Auswertung.
