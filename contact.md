@@ -2,6 +2,46 @@
 title: Contact / Legal Notice
 excerpt: .
 ---
+<form
+    name="simpleContactForm"
+    method="POST"
+    action="/thanks"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    id="simple-contact-form"
+    class="contact-form"
+>
+    <p class="hidden">
+        <label id="contact-form-bot-label"
+            >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
+        /></label>
+    </p>
+    <p class="form-row">
+        <label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
+        <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
+    </p>
+    <p class="form-row">
+        <label id="contact-form-email-label" for="contact-form-email" class="form-label">Email address</label>
+        <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
+    </p>
+    <p class="form-row">
+        <label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label>
+        <textarea
+            name="message"
+            id="contact-form-message"
+            aria-labelledby="contact-form-message-label"
+            class="form-textarea"
+            rows="7"
+        ></textarea>
+    </p>
+    <p class="form-row form-submit">
+        <button type="submit" class="button">Send Message</button>
+    </p>
+</form>
+
+
+
+
 ### Impressum
 
 **Verantwortlich für den Inhalt:**
