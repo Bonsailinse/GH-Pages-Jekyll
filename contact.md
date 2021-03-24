@@ -3,12 +3,12 @@ title: Contact / Legal Notice
 excerpt: .
 ---
 <form
-    name="simpleContactForm"
+    name="ContactForm"
     method="POST"
     action="/thanks"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
-    id="simple-contact-form"
+    id="contact-form"
     class="contact-form"
 >
    <label class="hidden" id="contact-form-bot-label">Bot-Protection; don't fill out: <input name="bot-field" aria-labelledby="contact-form-bot-label"
