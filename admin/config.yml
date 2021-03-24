@@ -26,16 +26,6 @@ i18n:
   # The locale to be used for fields validation and as a baseline for the entry.
   default_locale: en
 
-defaults:
-  - scope:
-      path: "_**/en/**"
-    values:
-      locale: en
-  - scope:
-      path: "_**/de/**"
-    values:
-      locale: de
-
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -70,6 +60,17 @@ collections:
           - { label: "Body", name: "body", widget: "markdown", i18n: true }
           - { label: "Layout", name: "layout", widget: "hidden", default: "page", i18n: duplicate }
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/", i18n: duplicate }
+          - { label: "Excerpt", name: "excerpt", widget: "text", i18n: true }
+          - { label: "Comments", name: "comments", widget: "hidden", default: "false", i18n: duplicate }
+      - label: "Contact"
+        name: "contact"
+        file: "contact.md"
+        i18n: true
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Contact", i18n: true }
+          - { label: "Body", name: "body", widget: "markdown", i18n: true }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page", i18n: duplicate }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contact/", i18n: duplicate }
           - { label: "Excerpt", name: "excerpt", widget: "text", i18n: true }
           - { label: "Comments", name: "comments", widget: "hidden", default: "false", i18n: duplicate }
   - name: "config"
