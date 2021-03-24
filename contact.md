@@ -12,8 +12,7 @@ excerpt: .
     class="contact-form"
 >
     <p class="hidden">
-        <label id="contact-form-bot-label"
-            >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
+        <label id="contact-form-bot-label">Bot-Protection; don't fill out: <input name="bot-field" aria-labelledby="contact-form-bot-label"
         /></label>
     </p>
     <p class="form-row">
@@ -21,7 +20,7 @@ excerpt: .
         <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
     </p>
     <p class="form-row">
-        <label id="contact-form-email-label" for="contact-form-email" class="form-label">Email address</label>
+        <label id="contact-form-email-label" for="contact-form-email" class="form-label">E-Mail</label>
         <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
     </p>
     <p class="form-row">
@@ -40,7 +39,7 @@ excerpt: .
 </form>
 
 
-
+*Legal notice in German, because German law requires it and I don't really bother to translate the whole thing for countries who don't care.*
 
 ### Impressum
 
@@ -201,14 +200,14 @@ Widerspruch und "Opt-Out": Das Speichern von Cookies auf Ihrer Festplatte könne
 6. Datenübermittlung/Empfängerkategorie: Google, Irland und USA. Wir haben zudem mit Google eine Vereinbarung zur Auftragsverarbeitung nach Art. 28 DSGVO geschlossen.
 7. Widerspruchs- und Beseitigungsmöglichkeiten ("Opt-Out"):
 
-   * Das Speichern von Cookies auf Ihrer Festplatte können Sie allgemein verhindern, indem Sie in Ihren Browser-Einstellungen &"keine Cookies akzeptieren" wählen. Dies kann aber eine Funktionseinschränkung unserer Angebote zur Folge haben. Sie können darüber hinaus die Erfassung der, durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen, Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="nofollow">http://tools.google.com/dlpage/gaoptout?hl=de</a>
+   * Das Speichern von Cookies auf Ihrer Festplatte können Sie allgemein verhindern, indem Sie in Ihren Browser-Einstellungen "keine Cookies akzeptieren" wählen. Dies kann aber eine Funktionseinschränkung unserer Angebote zur Folge haben. Sie können darüber hinaus die Erfassung der, durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen, Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="nofollow">http://tools.google.com/dlpage/gaoptout?hl=de</a>
    * Als Alternative zum obigen Browser-Plugin können Sie die Erfassung durch Google Analytics unterbinden, indem Sie [hier](/opt-out/) klicken. Durch den Klick wird ein "Opt-out"-Cookie gesetzt, das die Erfassung Ihrer Daten beim Besuch dieser Webseite zukünftig verhindert. Dieses Cookie gilt nur für unsere Webseite und Ihren aktuellen Browser und hat nur solange Bestand bis Sie Ihre Cookies löschen. In dem Falle müssten Sie das Cookie erneut setzen.
    * Die geräteübergreifende Nutzeranalyse können Sie in Ihrem Google-Account unter "Meine Daten > persönliche Daten" deaktivieren.
 
 **Rechte der betroffenen Person**
 
 1. Widerspruch oder Widerruf gegen die Verarbeitung Ihrer Daten
-   Soweit die Verarbeitung auf Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a), Art. 7 DSGVO beruht, haben Sie das Recht, die Einwilligung jederzeit zu widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung wird dadurch nicht berührt.
+Soweit die Verarbeitung auf Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a), Art. 7 DSGVO beruht, haben Sie das Recht, die Einwilligung jederzeit zu widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung wird dadurch nicht berührt.
 
 Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung gemäß Art. 6 Abs. 1 S. 1 lit. f) DSGVO stützen, können Sie Widerspruch gegen die Verarbeitung einlegen. Dies ist der Fall, wenn die Verarbeitung insbesondere nicht zur Erfüllung eines Vertrags mit Ihnen erforderlich ist, was von uns jeweils bei der nachfolgenden Beschreibung der Funktionen dargestellt wird. Bei Ausübung eines solchen Widerspruchs bitten wir um Darlegung der Gründe, weshalb wir Ihre personenbezogenen Daten nicht wie von uns durchgeführt verarbeiten sollten. Im Falle Ihres begründeten Widerspruchs prüfen wir die Sachlage und werden entweder die Datenverarbeitung einstellen bzw. anpassen oder Ihnen unsere zwingenden schutzwürdigen Gründe aufzeigen, aufgrund derer wir die Verarbeitung fortführen.
 
@@ -221,22 +220,22 @@ Stadtlohnweg 17\
 E-Mail: [mail@bonsailinse.net](mailto:mail@bonsailinse.net)
 
 2. Recht auf Auskunft
-   Sie haben das Recht, von uns eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden. Sofern dies der Fall ist, haben Sie ein Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten nach Art. 15 DSGVO. Dies beinhaltet insbesondere die Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden.
+Sie haben das Recht, von uns eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden. Sofern dies der Fall ist, haben Sie ein Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten nach Art. 15 DSGVO. Dies beinhaltet insbesondere die Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden.
 3. Recht auf Berichtigung
-   Sie haben ein Recht auf Berichtigung unrichtiger oder auf Vervollständigung richtiger Daten nach Art. 16 DSGVO.
+Sie haben ein Recht auf Berichtigung unrichtiger oder auf Vervollständigung richtiger Daten nach Art. 16 DSGVO.
 4. Recht auf Löschung
-   Sie haben ein Recht auf Löschung Ihrer bei uns gespeicherten Daten nach Art. 17 DSGVO, es sei denn gesetzliche oder vertraglichen Aufbewahrungsfristen oder andere gesetzliche Pflichten bzw. Rechte zur weiteren Speicherung stehen dieser entgegen.
+Sie haben ein Recht auf Löschung Ihrer bei uns gespeicherten Daten nach Art. 17 DSGVO, es sei denn gesetzliche oder vertraglichen Aufbewahrungsfristen oder andere gesetzliche Pflichten bzw. Rechte zur weiteren Speicherung stehen dieser entgegen.
 5. Recht auf Einschränkung
-   Sie haben das Recht, eine Einschränkung bei der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, wenn eine der Voraussetzungen in Art. 18 Abs. 1 lit. a) bis d) DSGVO erfüllt ist:
+Sie haben das Recht, eine Einschränkung bei der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, wenn eine der Voraussetzungen in Art. 18 Abs. 1 lit. a) bis d) DSGVO erfüllt ist:
 
-   * Wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;
-   * die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnen und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;
-   * der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder
-   * wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.
+* Wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;
+* die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnen und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;
+* der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder
+* wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.
 6. Recht auf Datenübertragbarkeit
-   Sie haben ein Recht auf Datenübertragbarkeit nach Art. 20 DSGVO, was bedeutet, dass Sie die bei uns über Sie gespeicherten personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format erhalten können oder die Übermittlung an einen anderen Verantwortlichen verlangen können.
+Sie haben ein Recht auf Datenübertragbarkeit nach Art. 20 DSGVO, was bedeutet, dass Sie die bei uns über Sie gespeicherten personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format erhalten können oder die Übermittlung an einen anderen Verantwortlichen verlangen können.
 7. Recht auf Beschwerde
-   Sie haben ein Recht auf Beschwerde bei einer Aufsichtsbehörde. In der Regel können Sie sich hierfür an die Aufsichtsbehörde insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes wenden.
+Sie haben ein Recht auf Beschwerde bei einer Aufsichtsbehörde. In der Regel können Sie sich hierfür an die Aufsichtsbehörde insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes wenden.
 
 **Datensicherheit**\
 Um alle personenbezogen Daten, die an uns übermittelt werden, zu schützen und um sicherzustellen, dass die Datenschutzvorschriften von uns, aber auch unseren externen Dienstleistern eingehalten werden, haben wir geeignete technische und organisatorische Sicherheitsmaßnahmen getroffen. Deshalb werden unter anderem alle Daten zwischen Ihrem Browser und unserem Server über eine sichere SSL-Verbindung verschlüsselt übertragen.
